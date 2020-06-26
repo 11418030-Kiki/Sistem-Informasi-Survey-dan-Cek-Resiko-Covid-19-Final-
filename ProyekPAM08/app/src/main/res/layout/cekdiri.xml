@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30pt"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/custom2"
+        android:shadowColor="#FF0000"
+        android:text="Cek Diri"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30pt"
+    android:layout_marginTop="20pt"
+    android:text="Hari Pertama :"
+    android:textColor="#800000"
+    android:textSize="15pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20pt"
+        android:layout_marginTop="3pt"
+        android:text="Apakah anda merasa masuk angin?"
+        android:textColor="#3F51B5"
+        android:textSize="8pt" />
+
+    <CheckBox
+        android:id="@+id/ya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20pt"
+        android:layout_marginBottom="-15pt"
+        android:text="YA" />
+
+    <CheckBox
+        android:id="@+id/tidak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50pt"
+        android:text="Tidak" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20pt"
+        android:layout_marginTop="10pt"
+        android:text="Apakah tenggorokan sedikit sakit?"
+        android:textColor="#3F51B5"
+        android:textSize="8pt" />
+
+    <CheckBox
+        android:id="@+id/yaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20pt"
+        android:layout_marginBottom="-15pt"
+        android:text="YA" />
+
+    <CheckBox
+        android:id="@+id/tidakk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50pt"
+        android:text="Tidak" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FBF8F8">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="355dp"
+        android:layout_height="171dp"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="80pt"
+        android:background="#FFFFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/virus"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="170pt"
+        android:text="Ayo Bersama Kita Lawan CoVid-19"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="178dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="40pt"
+        android:layout_marginTop="20pt"
+        app:srcCompat="@drawable/indonesia"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="233pt"
+        android:text="#StayAtHome"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="225pt"
+        android:text="#StayHealthy"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20pt"
+        android:layout_marginTop="200pt"
+        android:text="Cek Informasi"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+</RelativeLayout>
